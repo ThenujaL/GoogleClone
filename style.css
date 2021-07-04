@@ -1,0 +1,69 @@
+
+
+body{
+    top: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 1%
+}
+
+/* Header */
+#HButton{
+    
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    
+    
+}
+
+/* search section */
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+/* Search Bar */
+#sContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#sBar{
+    height: 2.7rem;
+    width: 35rem;
+    border: 1px solid;
+    border-radius: 30px;
+    outline: none;
+    padding: 0px 50px; 
+}
+
+#sImage {
+    position: absolute;
+    max-width: 25px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+/* Search button and submit buttons */
+#btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20em;
+    margin-top: 30px;
+}
+
+
+/* image search button */
+#imageSearch{
+    margin-top: 20px;
+}
